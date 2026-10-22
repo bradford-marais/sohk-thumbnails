@@ -161,9 +161,10 @@ JUDGE_PROMPT = (
     "Image 1 is an AI-edited picture. Image 2 is a real photo of one person. "
     "Judge ONLY whether the main person in Image 1 is immediately recognizable as the person in "
     "Image 2: face shape, eyes, nose, mouth, skin tone, hair, facial hair, distinguishing features. "
-    "Ignore lighting, background, crop and image quality. Also check Image 1 for problems: any "
-    "visible text or letters, a second person, extra or broken hands/fingers, or the person "
-    "looking pasted on. Return ONLY JSON: "
+    "Ignore lighting, background, crop and image quality. Also check Image 1 for problems: the face too dark "
+    "to read, a second person, extra or broken hands/fingers, the person looking pasted on, or "
+    "text/letters floating in the background (text printed on their clothes or on an object "
+    "they hold in Image 2 is fine and is NOT a problem). Return ONLY JSON: "
     '{"score": <0-10, 10 = unmistakably the same person, 7 = clearly them with minor drift, '
     '4 = resembles them but noticeably off, 0 = different person>, '
     '"problems": "<empty string, or the worst visible problem in a few words>", '

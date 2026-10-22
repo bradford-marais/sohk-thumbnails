@@ -29,9 +29,9 @@ RELIGHT_PROMPT = """Image 1 is a real photo of the presenter. Image 2 is an empt
 
 Place the presenter from Image 1 into the scene in Image 2 so it looks photographed there, not pasted on.
 
-FRAMING: the presenter stands or sits in the RIGHT 42% of the frame, from about the waist or chest up, body slightly angled toward the left, filling most of the frame height. Keep the LEFT 58% of the frame clear of the person (only background there). If Image 1 shows them holding an object (an award, a microphone, a laptop), keep it.
+FRAMING: a tight, big portrait crop like a YouTube thumbnail. The presenter is in the RIGHT 42% of the frame and LARGE: the top of the head sits near the top edge (about 5-10% down), and the body is cut off by the bottom edge at the chest or waist, so they fill nearly the full frame height. If Image 1 shows the full body, crop in anyway: never show legs or feet, never leave the presenter small in the middle. Body slightly angled toward the left. Keep the LEFT 58% of the frame clear of the person (only background there). If they hold an object (an award, a microphone, a laptop), keep it if it fits the crop.
 
-LIGHTING: relight the presenter to match the scene. The red-orange glow in Image 2 sits behind them: it rims their hair, shoulders and the edge of the face with warm red-orange light, and the side of the face toward the left falls into soft shadow. Deep navy ambient fill everywhere else. Moody and low-key, not bright: the face stays natural skin tone, never orange or yellow. Contrast and grain match the background.
+LIGHTING: relight the presenter to match the scene, like a professional thumbnail photo. The face is WELL LIT and easy to read: a soft, warm key light from the front-right falls on the face, natural skin tone, clear eyes. The red-orange glow in Image 2 sits behind them and rims their hair and shoulders with red-orange light. The left side of the body falls gently into shadow. Deep navy ambient fill. Never underexpose the face, and never turn the skin orange. Contrast and grain match the background.
 
 BACKGROUND: keep Image 2 exactly: same navy, same deep red-orange glow (do NOT enlarge, brighten or turn it yellow), same faint motif and dot texture.
 
